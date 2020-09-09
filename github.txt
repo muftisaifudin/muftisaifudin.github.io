@@ -1,0 +1,19 @@
+…or create a new repository on the command line
+echo "# muftisaifudin.github.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/muftisaifudin/muftisaifudin.github.io.git
+git push -u origin master
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/muftisaifudin/muftisaifudin.github.io.git
+git branch -M master
+git push -u origin master
+
+git remote set-url origin https://muftisaifudin:Puzzle^01@github.com/muftisaifudin/muftisaifudin.github.io.git
+
+git fetch
+
+git reset --hard origin/master
